@@ -2,11 +2,11 @@ const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe')
 
 const jump = () => {
-    mario.classList.add('jump');
+    mario.classList.add('https://luancostaf.github.io/MarioJumpGame/jump.png');
 
 
     setTimeout(() =>{
-    mario.classList.remove('jump');
+    mario.classList.remove('https://luancostaf.github.io/MarioJumpGame/jump.png');
     },500);
 }
 
@@ -25,7 +25,7 @@ const loop = setInterval(() => {
     mario.style.animation = 'none';
     mario.style.bottom = `${marioPosition}px`;
 
-    mario.src = './images/game-over.png'
+    mario.src = 'https://luancostaf.github.io/MarioJumpGame/game-over.png'
     mario.style.width = '75px'
     mario.style.marginLeft = '50px'
 
